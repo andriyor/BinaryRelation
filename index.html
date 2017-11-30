@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Directed Graph Editor</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  
+  <body>
+  	<h1>Binary Relations: An Interactive Diagram</h1>
+  	<iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="d3display.html" marginwidth="0" marginheight="0" style="height:500px;" scrolling="no"></iframe>
+	<div class="container">
+		<div class="row buffer">
+		  <div class="col-md-6">
+            <h2>Instructions</h2>
+            <ul>
+			  <li>Click and drag to create new edges</li>
+			  <li>Selected edges are marked by dotted lines</li>
+			  <li>To delete edges, select and edge and press Delete</li>
+			  <li>Edges can only be drawn from the Domain to the Co-Domain</li>
+			</ul>
+			This is a simple interactive diagram created to help students in discrete math recognize and test different types of binary relations.
+          </div>
+          <div class="col-md-6">
+            <h2>Relations</h2>
+            <ul>
+			  <li>Function: less than or equal to 1 arrow out</li>
+			  <li>Surjective: greater than or eqaul to 1 arrow in</li>
+			  <li>Total: greater than or equal to 1 arrow out</li>
+			  <li>Injective: less than or equal to 1 arrow in</li>
+			  <li>Bijective: 1 arrow out and 1 arrow in</li>
+			</ul>
+			These conditional statements verify if there is at most or at least one arrow going in or out of a node. Edges can only come out of the Domain and end in the Co-Domain.
+          </div>
+		</div>
+		<div class="col"></div>
+    <p>Created by <a href="https://github.com/cpgeier">Christopher Geier</a></p>
+    <p></a></p>
+  </body>
+  
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+</html>
