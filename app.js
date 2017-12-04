@@ -313,6 +313,7 @@ function restart() {
       restart();
     });
 
+
   // show node IDs
   g.append('svg:text')
       .attr('x', 0)
@@ -337,12 +338,13 @@ function mousedown() {
   if(d3.event.ctrlKey || mousedown_node || mousedown_link) return;
 
   // insert new node at point
+  /*
   var point = d3.mouse(this),
       node = {id: ++lastNodeId, reflexive: false};
   node.x = point[0];
   node.y = point[1];
   nodes.push(node);
-
+  */
   restart();
 }
 
