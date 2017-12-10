@@ -1,4 +1,4 @@
-<img src="sample.PNG"></img>
+<img src="sample.PNG" href="http://binaryrelations.ml/"></img>
 
 # BinaryRelation
 Discrete math Educational tool. Interactive interface for teaching binary relations.
