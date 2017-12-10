@@ -3,6 +3,5 @@ Discrete math Educational tool. Interactive interface for teaching binary relati
 
 ## Tools:
 
-D3
-Javascript
-Github pages
+- Graph: D3, Javascript
+- Hosting: Github pages
